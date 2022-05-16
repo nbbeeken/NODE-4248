@@ -1,6 +1,6 @@
 const { MongoClient } = require('mongodb')
 
-export default function handler(
+function handler(
   request,
   response,
 ) {
@@ -15,3 +15,7 @@ export default function handler(
 
   response.status(200).json({ hello: 1, films });
 }
+
+module.exports = handler
+module.exports.default = handler
+module.exports.handler = handler
