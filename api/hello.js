@@ -1,7 +1,8 @@
 // @ts-check
-const { MongoClient } = require('mongodb')
+// const { MongoClient } = require('mongodb')
+import { MongoClient } from 'mongodb'
 
-async function handler(
+export default async function handler(
   request,
   response,
 ) {
@@ -17,6 +18,6 @@ async function handler(
   response.status(200).json({ hello: 1, films });
 }
 
-module.exports = handler
-module.exports.default = handler
-module.exports.handler = handler
+// module.exports = handler
+// module.exports.default = handler
+// module.exports.handler = handler
