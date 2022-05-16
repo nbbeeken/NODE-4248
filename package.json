@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/nbbeeken/node-4248/issues"
   },
-  "homepage": "https://github.com/nbbeeken/node-4248#readme"
+  "homepage": "https://github.com/nbbeeken/node-4248#readme",
+  "dependencies": {
+    "mongodb": "^4.6.0"
+  }
 }

@@ -1,6 +1,7 @@
+// @ts-check
 const { MongoClient } = require('mongodb')
 
-function handler(
+async function handler(
   request,
   response,
 ) {
